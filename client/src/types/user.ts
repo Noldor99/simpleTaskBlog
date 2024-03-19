@@ -1,4 +1,4 @@
-import { IPerson } from "./person"
+
 
 export interface IUsers {
   totalCount: number
@@ -11,7 +11,6 @@ export interface IUser {
   email: string
   roles: RolesEnum[]
   userImg: string
-  person: IPerson
   createdAt: Date
   updatedAt: Date
 }

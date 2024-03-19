@@ -48,7 +48,7 @@ const Content = () => {
         <Button asChild variant="black_out">
           <Link href={'/admin/main/Add'}>
             <IconPlus className="mr-2" />
-            Add news
+            Add content
           </Link>
         </Button>
         <FilterSelect arrValue={arrVariant} paramName="variant" />
