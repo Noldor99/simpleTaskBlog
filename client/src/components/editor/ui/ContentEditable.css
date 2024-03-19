@@ -1,0 +1,16 @@
+.ContentEditable__root {
+  border: 0;
+  font-size: 15px;
+  display: block;
+  position: relative;
+  outline: 0;
+  padding: 8px 18px 40px;
+  min-height: 150px;
+  background: white;
+}
+@media (max-width: 1025px) {
+  .ContentEditable__root {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
