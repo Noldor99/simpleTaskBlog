@@ -55,6 +55,7 @@ export const useAuthLogin = () => {
     onSuccess: (data) => {
       setUser(data)
       push('/')
+      window.location.reload()
     },
   })
 
