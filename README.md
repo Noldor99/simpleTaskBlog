@@ -43,7 +43,7 @@
 2. **Запуск:**
 
 server:
-- в файлы .development.env заповність актуальними данними розділ Database
+- в файлы .development.env заповніть актуальними данними розділ Database
 - npm i
 - npm run seed
 - npm run start:dev
